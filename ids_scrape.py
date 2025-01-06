@@ -14,8 +14,8 @@ def scrape_activity_ids(naics_code, filename="activity_ids.csv"):
     all_activity_ids = []
 
     # Get the current date in the format matching the website (e.g., MM/DD/YYYY)
-    current_date = datetime.now().strftime("%m/%d/%Y")
-    # current_date = "12/18/2024"
+    # current_date = datetime.now().strftime("%m/%d/%Y")
+    current_date = "08/28/2024"
 
     try:
         driver.get("https://www.osha.gov/pls/imis/industry.html")
